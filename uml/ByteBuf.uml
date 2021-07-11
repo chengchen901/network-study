@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>io.netty.buffer.ByteBuf</OriginalElement>
+  <nodes>
+    <node x="414.0" y="80.0">io.netty.buffer.AbstractByteBuf</node>
+    <node x="749.1388888888889" y="240.0">io.netty.buffer.UnpooledUnsafeDirectByteBuf</node>
+    <node x="541.1388888888889" y="240.0">io.netty.buffer.PooledByteBuf</node>
+    <node x="500.0" y="320.0">io.netty.buffer.PooledUnsafeDirectByteBuf</node>
+    <node x="260.5" y="400.0">io.netty.buffer.PooledUnsafeHeapByteBuf</node>
+    <node x="444.0" y="0.0">io.netty.buffer.ByteBuf</node>
+    <node x="0.0" y="320.0">io.netty.buffer.UnpooledUnsafeHeapByteBuf</node>
+    <node x="285.0" y="320.0">io.netty.buffer.PooledHeapByteBuf</node>
+    <node x="288.4166666666667" y="240.0">io.netty.buffer.UnpooledDirectByteBuf</node>
+    <node x="348.0" y="160.0">io.netty.buffer.AbstractReferenceCountedByteBuf</node>
+    <node x="769.0" y="320.0">io.netty.buffer.PooledDirectByteBuf</node>
+    <node x="24.5" y="240.0">io.netty.buffer.UnpooledHeapByteBuf</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="io.netty.buffer.PooledByteBuf" target="io.netty.buffer.AbstractReferenceCountedByteBuf" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="635.1388888888889" y="215.0" />
+      <point x="497.5" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.buffer.UnpooledDirectByteBuf" target="io.netty.buffer.AbstractReferenceCountedByteBuf" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="398.4166666666667" y="215.0" />
+      <point x="497.5" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.buffer.UnpooledUnsafeDirectByteBuf" target="io.netty.buffer.AbstractReferenceCountedByteBuf" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="883.6388888888889" y="215.0" />
+      <point x="497.5" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.buffer.UnpooledUnsafeHeapByteBuf" target="io.netty.buffer.UnpooledHeapByteBuf" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.buffer.UnpooledHeapByteBuf" target="io.netty.buffer.AbstractReferenceCountedByteBuf" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="132.5" y="215.0" />
+      <point x="497.5" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.buffer.PooledHeapByteBuf" target="io.netty.buffer.PooledByteBuf" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="382.5" y="295.0" />
+      <point x="635.1388888888889" y="295.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.buffer.PooledUnsafeHeapByteBuf" target="io.netty.buffer.PooledHeapByteBuf" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.buffer.AbstractReferenceCountedByteBuf" target="io.netty.buffer.AbstractByteBuf" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.buffer.PooledUnsafeDirectByteBuf" target="io.netty.buffer.PooledByteBuf" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="624.5" y="295.0" />
+      <point x="635.1388888888889" y="295.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.buffer.AbstractByteBuf" target="io.netty.buffer.ByteBuf" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.buffer.PooledDirectByteBuf" target="io.netty.buffer.PooledByteBuf" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="869.0" y="295.0" />
+      <point x="635.1388888888889" y="295.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="320.5" y="215.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

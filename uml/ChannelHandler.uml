@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>io.netty.channel.ChannelHandler</OriginalElement>
+  <nodes>
+    <node x="892.5000000000001" y="244.0">io.netty.channel.ChannelDuplexHandler</node>
+    <node x="1129.5" y="244.0">io.netty.channel.ChannelOutboundHandlerAdapter</node>
+    <node x="1321.6601354082454" y="80.0">io.netty.channel.ChannelHandlerAdapter</node>
+    <node x="343.5" y="244.0">io.netty.channel.ChannelInitializer</node>
+    <node x="805.2624999999999" y="326.0">io.netty.channel.CombinedChannelDuplexHandler</node>
+    <node x="1098.0" y="170.6863379143088">io.netty.channel.ChannelOutboundHandler</node>
+    <node x="570.5" y="244.0">io.netty.channel.SimpleChannelInboundHandler</node>
+    <node x="442.25" y="162.0">io.netty.channel.ChannelInboundHandlerAdapter</node>
+    <node x="225.07222222222208" y="80.0">io.netty.channel.ChannelInboundHandler</node>
+    <node x="10.5" y="244.0">io.netty.channel.SimpleUserEventChannelHandler</node>
+    <node x="659.9404518099344" y="-44.67259498787388">io.netty.channel.ChannelHandler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="io.netty.channel.ChannelInboundHandler" target="io.netty.channel.ChannelHandler" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="338.5722222222221" y="60.0" />
+      <point x="652.5722222222222" y="60.0" />
+      <point x="652.5722222222222" y="50.0" />
+      <point x="701.6904518099344" y="50.0" />
+      <point x="-41.75" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.SimpleUserEventChannelHandler" target="io.netty.channel.ChannelInboundHandlerAdapter" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="167.0" y="223.0" />
+      <point x="584.25" y="223.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelInboundHandlerAdapter" target="io.netty.channel.ChannelHandlerAdapter" relationship="GENERALIZATION">
+      <point x="71.0" y="-15.0" />
+      <point x="655.25" y="136.0" />
+      <point x="1433.6601354082454" y="136.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelOutboundHandlerAdapter" target="io.netty.channel.ChannelHandlerAdapter" relationship="GENERALIZATION">
+      <point x="74.25" y="-15.0" />
+      <point x="1352.25" y="223.0" />
+      <point x="1433.6601354082454" y="223.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelOutboundHandler" target="io.netty.channel.ChannelHandler" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1218.0" y="124.02950687146323" />
+      <point x="1328.414913994431" y="124.02950687146323" />
+      <point x="1328.414913994431" y="70.56143896523848" />
+      <point x="775.4218584388753" y="70.56143896523848" />
+      <point x="775.4218584388753" y="50.0" />
+      <point x="738.1174930387137" y="50.0" />
+      <point x="738.1174930387137" y="-14.672594987873879" />
+      <point x="-41.75" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelInboundHandlerAdapter" target="io.netty.channel.ChannelInboundHandler" relationship="REALIZATION">
+      <point x="-71.0" y="-15.0" />
+      <point x="513.25" y="136.0" />
+      <point x="395.3222222222221" y="136.0" />
+      <point x="56.75" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.CombinedChannelDuplexHandler" target="io.netty.channel.ChannelInboundHandler" relationship="DEPENDENCY">
+      <point x="-112.33333333333331" y="-15.0" />
+      <point x="861.4291666666666" y="300.0" />
+      <point x="-1.2409054163298299" y="300.0" />
+      <point x="-1.2409054163298299" y="136.0" />
+      <point x="281.8222222222221" y="136.0" />
+      <point x="-56.75" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.CombinedChannelDuplexHandler" target="io.netty.channel.ChannelDuplexHandler" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="973.7624999999999" y="300.0" />
+      <point x="1001.0000000000001" y="300.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelDuplexHandler" target="io.netty.channel.ChannelInboundHandlerAdapter" relationship="GENERALIZATION">
+      <point x="-54.25" y="-15.0" />
+      <point x="946.7500000000001" y="223.0" />
+      <point x="584.25" y="223.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelInitializer" target="io.netty.channel.ChannelInboundHandlerAdapter" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="447.0" y="223.0" />
+      <point x="584.25" y="223.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelHandlerAdapter" target="io.netty.channel.ChannelHandler" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1433.6601354082454" y="50.0" />
+      <point x="785.1904518099344" y="50.0" />
+      <point x="41.75" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelDuplexHandler" target="io.netty.channel.ChannelOutboundHandler" relationship="REALIZATION">
+      <point x="54.25" y="-15.0" />
+      <point x="1055.25" y="223.0" />
+      <point x="1088.9402777777777" y="223.0" />
+      <point x="1088.9402777777777" y="213.0" />
+      <point x="1158.0" y="213.0" />
+      <point x="-60.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.CombinedChannelDuplexHandler" target="io.netty.channel.ChannelOutboundHandler" relationship="DEPENDENCY">
+      <point x="112.33333333333331" y="-15.0" />
+      <point x="1086.0958333333333" y="300.0" />
+      <point x="1437.0" y="300.0" />
+      <point x="1437.0" y="213.0" />
+      <point x="1278.0" y="213.0" />
+      <point x="60.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.SimpleChannelInboundHandler" target="io.netty.channel.ChannelInboundHandlerAdapter" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="721.5" y="223.0" />
+      <point x="584.25" y="223.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelOutboundHandlerAdapter" target="io.netty.channel.ChannelOutboundHandler" relationship="REALIZATION">
+      <point x="-74.25" y="-15.0" />
+      <point x="1203.75" y="223.0" />
+      <point x="1088.9402777777777" y="223.0" />
+      <point x="1088.9402777777777" y="213.0" />
+      <point x="1158.0" y="213.0" />
+      <point x="-60.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8058631921824105" showDependencies="false" x="757.4999999999999" y="178.0" />
+  <SelectedNodes>
+    <node>io.netty.channel.ChannelOutboundHandler</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
